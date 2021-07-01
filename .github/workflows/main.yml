@@ -15,8 +15,5 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist/
+        CNAME: discord-buttons.js.org
         COMMIT_MESSAGE: Auto deploy by the Vuepress-deploy
-
-    # Step 5 - Create name file
-    - name: Create cname file
-      run: echo 'discord-buttons.js.org' > docs/.vuepress/dist/CNAME
