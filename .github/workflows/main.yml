@@ -7,6 +7,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
 
+    # Step 5 - Create name file
+    - name: Create cname file
+      run: echo 'discord-buttons.js.org' > docs/.vuepress/dist/CNAME
+
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@1.6.1
       env:
