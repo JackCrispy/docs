@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/AngeloCore/discord-buttons'
+        link: 'https://github.com/discord-buttons/discord-buttons'
       },
       {
         text: 'Discord',
