@@ -59,14 +59,22 @@ module.exports = {
           children: [
             './classes/message',
             './classes/messagebutton',
+            './classes/messagemenu',
             './classes/messageactionrow',
-            './classes/messagecomponent'
+            './classes/messagecomponent',
+            './classes/buttoncollector'
           ]
         },
         {
           title: 'Events/Collectors',
           children: [
-            './events/clickbutton'
+            './events/clickbutton',
+          ]
+        },
+        {
+          title: 'Managers',
+          children: [
+            './managers/interactionreply.md',
           ]
         },
       ]
