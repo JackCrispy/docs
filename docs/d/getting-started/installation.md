@@ -12,6 +12,12 @@ The output should look something like this:
 discord.js@12.5.3
 ```
 
+If your output does not look like the one shown above, install discord.js v12 as we do not support discord.js v13. You can install the correct version by opening the command prompt and typing:
+
+```sh
+npm install discord.js@12.5.3
+```
+
 Once you have confirmed that you have a compatible version you can now move onto the next step. To install the npm package, open the command prompt and type:
 
 ```sh
