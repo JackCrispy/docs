@@ -10,52 +10,11 @@ extends [Collector]()
 
 Creates a button collector.
 
-<html>
-<body>
-<table>
-  <tr>
-    <th style="text-align: center; border: 1px solid #dddddd">PARAMETERS</th>
-    <th style="text-align: center; border: 1px solid #dddddd">TYPE</th>
-    <th style="text-align: center; border: 1px solid #dddddd">DEFAULT</th>
-    <th style="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
-    <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
-   </tr>
-
-  
-  <tr>
-    <td style="text-align: center; border: 1px solid #dddddd">data</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://github.com/AngeloCore/discord-buttons/blob/dev/src/v12/Classes/ButtonCollector.js">ButtonCollector</a></td>
-    <td style="text-align: center; border: 1px solid #dddddd">-</td>
-    <td style="text-align: center; border: 1px solid #dddddd">No</td>
-    <td style="text-align: center; border: 1px solid #dddddd">Collects Buttons.</td>
-
-  </tr>
-  
- 
-
-  <tr>
-    <td style="text-align: center; border: 1px solid #dddddd">filter</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://discord.js.org/#/docs/main/stable/typedef/CollectorFilter">CollectorFilter</a> </td>
-    <td style="text-align: center; border: 1px solid #dddddd">-</td>
-    <td style="text-align: center; border: 1px solid #dddddd">No</td>
-    <td style="text-align: center; border: 1px solid #dddddd">The filter function to use.</td>
-
-  </tr>
-
-  
-  <tr>
-    <td style="text-align: center; border: 1px solid #dddddd">options</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://discord-buttons.github.io/docs/d/classes/message.html">AwaitButtonsOptions</a></td>
-    <td style="text-align: center; border: 1px solid #dddddd">{}</td>
-    <td style="text-align: center; border: 1px solid #dddddd">Yes</td>
-    <td style="text-align: center; border: 1px solid #dddddd">Optional options to pass to the internal collector.</td>
-
- </tr>
-  
-  
-</table>
-</body>
-</html>
+|PARAMETERS|TYPE|DEFAULT|OPTIONAL|DESCRIPTION|
+|--- |--- |--- |--- |--- |
+|data|ButtonCollector|-|No|Collects Buttons.|
+|filter|CollectorFilter|-|No|The filter function to use.|
+|options|AwaitButtonsOptions|{}|Yes|Optional options to pass to the internal collector.|
 
 ## Methods
 
