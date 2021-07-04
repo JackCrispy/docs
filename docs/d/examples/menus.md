@@ -11,9 +11,9 @@ let option = new MessageMenuOption()
     
 let select = new MessageMenu()
     .setID('customid')
-    .setMaxValues(5)
-    .setMinValues(1)
     .setPlaceholder('Click me! :D');
+    .setMaxValues(1)
+    .setMinValues(1)
     .addOption(option)
 ```
 
