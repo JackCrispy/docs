@@ -15,6 +15,8 @@ let select = new MessageMenu()
     .setMaxValues(1)
     .setMinValues(1)
     .addOption(option)
+
+message.channel.send('Text with menu!', select);
 ```
 
 <img align="center" src="https://cdn.discordapp.com/attachments/850457799422771270/861212725484716032/unknown.png"></img>
