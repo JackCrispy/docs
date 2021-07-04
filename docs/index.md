@@ -37,11 +37,11 @@ require('discord-buttons')(client);
 const disbut = require('discord-buttons');
 
 let button = new disbut.MessageButton()
-  .setLabel('This is an button')
+  .setLabel('This is a button!')
   .setID('myid')
   .setStyle('blurple');
 
-message.channel.send('Ayo!', button);
+message.channel.send('Message with a button!', button);
 ```
 
 ### Typescript
@@ -52,7 +52,7 @@ disbut(client);
 #### then
 ```js
 let button = new disbut.MessageButton()
-  .setLabel('This is an button')
+  .setLabel('This is a button!')
   .setID('myid')
   .setStyle('blurple');
 ```
