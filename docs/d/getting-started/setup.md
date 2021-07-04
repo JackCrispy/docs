@@ -13,7 +13,7 @@ const disbut = require("discord-buttons");
 disbut(client);
 ```
 
-Then, you can use [disbut.MessageButton](../constructors/message-button) and [disbut.MessageActionRow](../constructors/message-action-row) in your main file.
+Then, you can use [disbut.MessageButton](../classes/messagebutton) and [disbut.MessageActionRow](../classes/messageactionrow) in your main file.
 
 <hr />
 
