@@ -12,6 +12,7 @@ Send a text response to the user.
 | PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
 | content         | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)      |         | no        | The text to send to the user                         |
+| options        | [InteractionReplyOptions]()                                                                   | `{}`      | yes       | Optional options to pass to the internal collector |
 
 Returns: [InteractionReply](#)
 
@@ -24,6 +25,7 @@ Edits a text response that was sent.
 | PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
 | -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
 | content         | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)      |         | no        | The text to send to the user                         |
+| options        | [InteractionReplyOptions]()                                                                   | `{}`      | yes       | Optional options to pass to the internal collector |
 
 Returns: [InteractionReply](#)
 
