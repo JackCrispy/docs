@@ -58,9 +58,9 @@ let button = new disbut.MessageButton()
 ```
 
 ### Examples
-All of our Examples and Button Styles are in [examples.md]([http://](https://github.com/AngeloCore/discord-buttons/blob/main/examples.md))
-Also you can check our [Documentation](./d/#welcome), if you have any other problems/questions, you can join our [Support Server!](https://discord.gg/5JtyYqW)
+View handy examples on how to get started [Examples](./d/examples/buttons).
+If you have any other problems/questions, you can join our [Support Server!](https://discord.gg/5JtyYqW)
 
 ### Contact
 Ask for help in our discord server: [discord.gg/src](https://discord.gg/src)
-###### If don't work, use [discord.gg/5JtyYqW](https://discord.gg/5JtyYqW)
+###### Invite didn't work?, use [discord.gg/5JtyYqW](https://discord.gg/5JtyYqW)

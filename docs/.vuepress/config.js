@@ -54,6 +54,7 @@ module.exports = {
           children: [
             './examples/buttons',
             './examples/menus',
+            './examples/reply',
           ]
         },
         {
