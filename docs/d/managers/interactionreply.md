@@ -27,6 +27,7 @@ Edits a text response that was sent.
 | content         | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)      |         | no        | The text to send to the user                         |
 | options        | [InteractionReplyOptions]()                                                                   | `{}`      | yes       | Optional options to pass to the internal collector |
 
+
 Returns: [InteractionReply](#)
 
 <hr>
@@ -34,20 +35,12 @@ Returns: [InteractionReply](#)
 #### .defer(ephemeral)
 Send a text response to the user.
 
-| PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
-| -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
-| ephemeral         | [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)      |         | yes        | If yes, it will show for a short amount of time                         |
-
 Returns: [InteractionReply](#)
 
 <hr>
 
 #### .think(ephemeral)
 Send a thinking text response to the user.
-
-| PARAMETER      | TYPE                                                                                      | DEFAULT | OPTIONAL  | DESCRIPTION                                        |
-| -------------- | ----------------------------------------------------------------------------------------- | ------- | --------- | -------------------------------------------------- |
-| ephemeral         | [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)      |         | yes        | If yes, it will show for a short amount of time                         |
 
 Returns: [InteractionReply](#)
 
