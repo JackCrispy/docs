@@ -51,8 +51,10 @@ module.exports = {
         },
         {
           title: 'Examples',
-          collapsable: false,
-          children: []
+          children: [
+            './examples/buttons',
+            './examples/menus',
+          ]
         },
         {
           title: 'Classes',
