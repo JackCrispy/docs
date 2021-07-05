@@ -17,7 +17,7 @@ actionLink:
   </p>
 </div>
 <div align="center">
-  <img src="https://cdn.discordapp.com/attachments/846455339419172874/848300816288055296/Main.png">
+  <img alt="Main Example" src="https://i.imgur.com/ZnJ7LGd.png">
   <br> <br>
 </div>
 
