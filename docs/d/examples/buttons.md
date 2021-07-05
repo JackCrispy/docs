@@ -14,6 +14,8 @@ message.channel.send('Hey, i am powered by https://npmjs.com/discord-buttons', b
 ```
 <img align="center" src="/DiscordDevelopment_ZdkBUja822.png"></img>
 
+<hr>
+
 ## URL Buttons
 ```js
 let button = new MessageButton()
