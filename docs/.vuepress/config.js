@@ -63,6 +63,7 @@ module.exports = {
             './classes/message',
             './classes/messagebutton',
             './classes/messagemenu',
+            './classes/messagemenuoption',
             './classes/messageactionrow',
             './classes/messagecomponent',
             './classes/buttoncollector'
