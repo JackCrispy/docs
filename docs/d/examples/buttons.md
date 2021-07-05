@@ -8,23 +8,18 @@
 let button = new MessageButton()
   .setStyle('red')
   .setLabel('My First Button!') 
-  .setID('click_to_function') 
-  .setDisabled();
+  .setID('click_to_function');
 
 message.channel.send('Hey, i am powered by https://npmjs.com/discord-buttons', button);
 ```
-
-<img align="center" src="https://i.imgur.com/KvNEWQo.png"></img>
-
-<hr>
+<img align="center" src="/DiscordDevelopment_ZdkBUja822.png"></img>
 
 ## URL Buttons
 ```js
 let button = new MessageButton()
   .setStyle('url')
   .setURL('https://npmjs.com/discord-buttons') 
-  .setLabel('My First URL Button!') 
-  .setDisabled(); 
+  .setLabel('My First URL Button!'); 
 
 message.channel.send('Hey, i am powered by https://npmjs.com/discord-buttons', button);
 ```
