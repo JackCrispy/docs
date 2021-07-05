@@ -27,7 +27,7 @@ message.channel.send('Hey, i am powered by https://npmjs.com/discord-buttons', b
 ```
 <b>P.S:</b> You need to Change your `style` to `url`, you don't have `id` for this kind of buttons too, and also make sure you have your URL in button with `setURL` and URL is valid.
 
-<img align="center" src="https://i.imgur.com/wferaQc.png"></img>
+<img align="center" src="/NQ7ZAnVffR.png"></img>
 
 <hr>
 
