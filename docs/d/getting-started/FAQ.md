@@ -21,18 +21,20 @@ A: As I said earlier, it takes time for Discord API and your bot to make connect
 
 #### `button.clicker.user` returns null, why?
 
-A: It takes time to load [User]() and [GuildMember]() so, you need to await them!
+A: It takes time to resolve [User](https://discord.js.org/#/docs/main/stable/class/User) and [GuildMember](https://discord.js.org/#/docs/main/stable/class/GuildMember) so, you need to fetch them!
 
 Example:
 ```js
-await button.clicker.user
+await button.clicker.fetch();
 ```
+
+if that doesn't work, make sure to enable [Intents](https://discord.com/developers/docs/topics/gateway#gateway-intents) From [Discord Developers Portal](https://discord.com/developers) and in your [Discord.js](https://discord.js.org/#/docs/main/stable/class/Intents)
 
 <hr>
 
 #### What is an ephemeral reply type?
 
-A: Ephemeral type, makes the message only visible to the person who clicked the button. (Ephemeral will only work with [button#reply](/d/managers/interactionreply.html#send-content-options), so keep that in mind)
+A: Ephemeral type makes the message only visible to the person who clicked the button. (Ephemeral will only work with [Button#InteractionReply](/d/classes/buttoninteraction.html#reply), so keep that in mind)
 
 <hr>
 
@@ -40,7 +42,7 @@ A: Ephemeral type, makes the message only visible to the person who clicked the 
 
 A:
 
-`1-)` Make sure you have the **latest** [discord.js](https://discord.js.org) client. (`npm i discord.js@latest`)
+`1-)` Make sure you have at least **v12.5.3** [discord.js](https://discord.js.org) client. (`npm i discord.js@latest`)
 
 `2-)` Make sure to install the **latest** version of [discord-buttons](/). (`npm i discord-buttons@latest`)
 
@@ -83,8 +85,7 @@ You need to pass the embed as embed and your button as button in your object
 A: PR's and Customized Repo/PR's (even suggested in [#faq](https://discord.com/channels/748098690874474567/846758592706117702/850638180288954399)) can be buggy, and we don't support that and it's just a temporary solution.
 You can use at your own risk or wait for updates.
 
-<hr>
+#### My Button is not Showing up, I did everything right.
 
-#### `button.clicker.user` [still](#button-clicker-user-returns-null-why) returning null
-
-A: Try activating [intents](https://discord.com/developers/docs/topics/gateway#gateway-intents) in [Discord Developers Portal](https://discord.com/developers/applications)
+A: Sometimes you guys put the `clickButton` (event)[https://nodejs.org/api/events.html] on the command file, alternatively known as your message [event](https://nodejs.org/api/events.html) and that can cause some problems like that,
+if you don't know how events work, you can read more [here](https://www.w3schools.com/nodejs/nodejs_events.asp) if you don't know how events work.
