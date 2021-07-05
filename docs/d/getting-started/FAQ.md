@@ -9,13 +9,13 @@ A: At the moment, Discord API doesn't support that, but still you can edit your 
 #### I received `The interaction failed` error, why?
 
 A: It takes time for the Discord API and your bot to make connection, so maybe you have to put the user on wait. (for that you need to defer your button)
-[defer](/d/classes/buttoninteraction.html#defer-ephemeral) needs to be on clickButton Event!
+[defer](/d/managers/interactionreply.html#defer-ephemeral) needs to be on clickButton Event!
 
 <hr>
 
 #### I received `Unknown interaction` error, why?
 
-A: As I said earlier, it takes time for Discord API and your bot to make connection. But however, putting the user on wait has more than 1 ways ([defer](/d/classes/buttoninteraction.html#defer-ephemeral), [reply](/d/classes/buttoninteraction.html#reply), [think](/d/classes/buttoninteraction.html#think-ephemeral)) and this error means you are putting the user on wait with more than only 1 way!
+A: As I said earlier, it takes time for Discord API and your bot to make connection. But however, putting the user on wait has more than 1 ways ([defer](/d/classes/buttoninteraction.html#defer-ephemeral), [reply](/d/managers/interactionreply.html#send-content-options), [think](/d/managers/interactionreply.html#think-ephemeral)) and this error means you are putting the user on wait with more than only 1 way!
 
 <hr>
 
@@ -32,7 +32,7 @@ await button.clicker.user
 
 #### What is an ephemeral reply type?
 
-A: Ephemeral type, makes the message only visible to the person who clicked the button. (Ephemeral will only work with [button#reply](/d/classes/buttoninteraction.html#reply), so keep that in mind)
+A: Ephemeral type, makes the message only visible to the person who clicked the button. (Ephemeral will only work with [button#reply](/d/managers/interactionreply.html#send-content-options), so keep that in mind)
 
 <hr>
 
