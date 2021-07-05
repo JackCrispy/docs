@@ -34,21 +34,20 @@ message.channel.send('Hey, i am powered by https://npmjs.com/discord-buttons', b
 ## Multiple Buttons
 ```js
 let button = new MessageButton()
-  .setStyle('red')
+  .setStyle('blurple')
   .setLabel('My First Button!') 
   .setID('click_to_function') 
-  .setDisabled();
 
 let button2 = new MessageButton()
-  .setStyle('blurple')
+  .setStyle('grey')
   .setLabel('Second Cool Button!') 
   .setID('second_button_function') 
   .setDisabled();
 
 let row = new MessageActionRow()
-  .addComponents([button1, button2])
+  .addComponents(button, button2);
 
-message.channel.send('Hello World!', components: [row]);
+message.channel.send('Hello World!', row);
 ```
 
-<img align="center" src="https://i.imgur.com/VyhpPvA.png"></img>
+<img align="center" src="/DiscordDevelopment_h12Bog7evR.png"></img>
